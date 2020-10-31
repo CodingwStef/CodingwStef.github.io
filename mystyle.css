@@ -1,0 +1,50 @@
+body{
+    font-family:"roboto",sans-serif;
+    background-color:#e0e1dd;
+}
+
+#title-top h1{
+    font-size:45px;
+    background-color:#415a77;
+    color:#e0e1dd;
+    
+    padding-left:5px;
+    margin-top:0px;
+    
+    border-bottom: solid 10px #778da9;
+}
+
+#on-this-site{
+    color:#e0e1dd;
+    background-color:#778da9;
+    
+    padding-left:10px;
+    
+    float:right;
+    width:18%;
+}
+
+#on-this-site h2{
+    margin-top:10px;
+}
+
+#on-this-site ul{
+    font-size:20px;
+    
+    
+    margin-top:-15px;
+}
+
+#Soon h2{
+    padding-left:5px;
+    color:#0d1b2a;
+}
+
+/*
+-- Colors --
+Background: #e0e1dd
+Lightest: #778da9
+Light: #415a77
+Dark: #1b263b
+Darkest: #0d1b2a
+*/
