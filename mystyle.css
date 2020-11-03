@@ -14,10 +14,11 @@ body{
 
 #Home h1{
     font-size:60px;
-    color:white;
+    color:#415a77;
     padding-left:5px;
+    background-color:#ffffff80;
 }
 
 #Home h1 span{
-    color: #415a77;
+    color: #778da9;
 }
