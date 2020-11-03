@@ -1,0 +1,36 @@
+body{
+    font-family:"roboto",sans-serif;
+    color:#415a77;
+    background-color:#415a77;
+    overflow-y: scroll;
+}
+
+#Title{
+    float:top;
+    width:auto;
+}
+
+#Title h1{
+    font-size:60px;
+    color:#415a77;
+    padding-left:5px;
+    background-color:#ffffff80;
+}
+
+#Title h1 span{
+    color: #778da9;
+}
+
+#Home-picture{
+    width:100%;
+    
+    position: absolute;
+    top:0;
+    left:0;
+    z-index:-1;
+}
+
+Home-text{
+    float:bottom;
+    width:auto;
+}
