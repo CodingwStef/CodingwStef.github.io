@@ -7,12 +7,7 @@ body{
     margin:0;
 }
 
-#Title{
-    margin-right:0;
-    width:100%;
-}
-
-#Title h1{
+#title-top{
     font-size:60px;
     color:#415a77;
     padding-left:5px;
@@ -23,18 +18,28 @@ body{
     width:100%;
 }
 
-#Title h1 span{
+#com{
     color: #778da9;
 }
 
-#Home-picture{
+.Title-picture{
     width:100%;
 }
 
-#Home-text{
+.info-text{
     color:#e0e1dd;
-    padding-left:5px;
+    border-left:solid 4px #e0e1dd;
+    
+    padding-left:20px;
+    width:50%;
+    margin:auto;
 }
 
-#Home-text h2{
+.h2-text{
+    margin-bottom:5px;
+}
+
+.p-text{
+    margin-top:0;
+    font-size:20px;
 }
