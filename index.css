@@ -3,11 +3,13 @@ body{
     color:#415a77;
     background-color:#415a77;
     overflow-y: scroll;
+    overflow-x:hidden;
+    margin:0;
 }
 
 #Title{
-    float:top;
-    width:auto;
+    margin-right:0;
+    width:100%;
 }
 
 #Title h1{
@@ -15,6 +17,10 @@ body{
     color:#415a77;
     padding-left:5px;
     background-color:#ffffff80;
+    
+    position:absolute;
+    padding-left:15px;
+    width:100%;
 }
 
 #Title h1 span{
@@ -23,14 +29,12 @@ body{
 
 #Home-picture{
     width:100%;
-    
-    position: absolute;
-    top:0;
-    left:0;
-    z-index:-1;
 }
 
-Home-text{
-    float:bottom;
-    width:auto;
+#Home-text{
+    color:#e0e1dd;
+    padding-left:5px;
+}
+
+#Home-text h2{
 }
