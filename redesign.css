@@ -1,0 +1,75 @@
+body{
+    font-family: "roboto",sans-serif;
+    color: #e0e1dd;
+    background-color: #415a77;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin:0;
+}
+
+#topTitle{
+    font-size: 60px;
+    color: #415a77;
+    padding-left: 5px;
+    background-color: #ffffff80;
+    
+    position: absolute;
+    padding-left: 15px;
+    width: 100%;
+}
+
+#com{
+    color: #778da9;
+}
+
+.sectionPicture{
+    width: 100%;
+}
+
+.infoText{
+    color: #e0e1dd;
+    border-left: solid 4px #e0e1dd;
+    
+    padding-left: 20px;
+    width: 50%;
+    margin: auto;
+}
+
+.h2Text{
+    margin-bottom: 5px;
+}
+
+.pText{
+    margin-top: 0;
+    font-size: 20px;
+}
+
+#footer{
+    background-color: #1b263b;
+}
+
+#contacts, #subjects{
+    width: 50%;
+    background-color: #1b263b;
+}
+
+#contacts{
+    float: right;
+}
+
+#contactLinks a:link, #contactLinks a:visited{
+    color: #e0e1dd;
+    text-decoration: none;
+}
+#contactLinks a:hover{
+    color: #e0e1dd;
+    text-decoration: underline;
+}
+#contactLinks a:active{
+    color: #778da9;
+    text-decoration: underline;
+}
+
+#subjects{
+    float: left;
+}
