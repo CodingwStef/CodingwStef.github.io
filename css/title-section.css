@@ -44,32 +44,20 @@ body{
     font-size: 20px;
 }
 
-#footer{
-    background-color: #1b263b;
+.readMore{
+    font-style: italic;
+    font-size: 16px;
 }
 
-#contacts, #subjects{
-    width: 50%;
-    background-color: #1b263b;
-}
-
-#contacts{
-    float: right;
-}
-
-#contactLinks a:link, #contactLinks a:visited{
+.readMore:link, .readMore:visited{
     color: #e0e1dd;
     text-decoration: none;
 }
-#contactLinks a:hover{
+.readMore:hover{
     color: #e0e1dd;
     text-decoration: underline;
 }
-#contactLinks a:active{
+.readMore:active{
     color: #778da9;
     text-decoration: underline;
-}
-
-#subjects{
-    float: left;
 }
