@@ -18,6 +18,11 @@ body{
     width: 100%;
 }
 
+#topTitle a:link, #topTitle a:visited, #topTitle a:active, #topTitle a:hover{
+    color: #415a77;
+    text-decoration: none;
+}
+
 #titleDetail{
     color: #778da9;
 }

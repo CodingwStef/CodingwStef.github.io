@@ -1,6 +1,7 @@
-#footer{
+footer{
     background-color: #1b263b;
     width: auto;
+    bottom: 0;
 }
 
 #contacts, #subjects, #footerImg{
